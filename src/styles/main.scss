@@ -1,4 +1,8 @@
-@import 'reset';
-@import 'global';
+@import "variables";
+@import "reset";
+@import "global";
 
-@import 'components/call-to-action/whatsapp-fixed-scroll.scss';
+@import "components/call-to-action/whatsapp-fixed-scroll.scss";
+@import "components/call-to-action/whatsapp-ghost-white.scss";
+
+@import "pageComponents/footer";

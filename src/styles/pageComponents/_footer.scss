@@ -1,0 +1,126 @@
+.footer {
+	background-color: #475569;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 100%;
+	padding-top: 96px;
+	padding-bottom: 96px;
+	color: white;
+	background: #475569;
+
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+
+		@media screen and (min-width: 768px) {
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			flex-direction: row;
+			align-content: flex-start;
+			align-items: flex-start;
+			gap: initial;
+		}
+	}
+
+	&__col-map {
+		display: none;
+
+		@media screen and (min-width: 768px) {
+			display: block;
+		}
+	}
+
+	&__row-app {
+		display: none;
+
+		@media screen and (min-width: 768px) {
+			display: block;
+			margin-bottom: 30px;
+		}
+	}
+
+	&__nav-app {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 10px;
+	}
+
+	&__link-app {
+		width: 95px;
+		height: 28px;
+		text-decoration: none;
+	}
+
+	&__logo {
+		width: 140px;
+		aspect-ratio: 192.75 / 64;
+
+		@media screen and (min-width: 768px) {
+			width: 192.75px;
+		}
+	}
+
+	&__title {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		letter-spacing: -1px;
+		color: #ffffff;
+		margin-bottom: 20px;
+		text-align: center;
+
+		@media screen and (min-width: 768px) {
+			text-align: left;
+		}
+	}
+
+	&__nav {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+
+		@media screen and (min-width: 768px) {
+			align-items: flex-start;
+		}
+	}
+
+	&__link {
+		font-size: 16px;
+		color: white;
+		text-decoration: none;
+	}
+
+	.footer_nav-social {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 20px;
+
+		@media screen and (min-width: 768px) {
+			justify-content: flex-start;
+		}
+	}
+
+	&__link-social {
+		display: block;
+		width: 40px;
+		height: 40px;
+		text-decoration: none;
+		color: white;
+	}
+}
