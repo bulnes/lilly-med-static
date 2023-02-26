@@ -2,6 +2,10 @@
 	background-color: #d9d9d9;
 	padding: 32px 0;
 
+	@media screen and (min-width: 768px) {
+		padding: 61px 0;
+	}
+
 	&__paragraph {
 		font-style: italic;
 		font-weight: 400;
@@ -9,5 +13,12 @@
 		line-height: 20px;
 		text-align: center;
 		color: #000000;
+
+		@media screen and (min-width: 768px) {
+			font-size: 18px;
+			line-height: 24px;
+			max-width: 1253px;
+			margin: 0 auto;
+		}
 	}
 }
