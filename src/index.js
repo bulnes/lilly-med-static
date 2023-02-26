@@ -1,3 +1,5 @@
 import "./styles/main.scss";
 
-window.console.log("Hello World!");
+document.addEventListener("DOMContentLoaded", () => {
+	document.body.classList.add("visible");
+});

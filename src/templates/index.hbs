@@ -5,11 +5,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   {{> components/metatags data=htmlWebpackPlugin.options.data.seo }}
+  {{> components/global-styles }}
 </head>
 
 <body>
   {{!-- {{> pageComponents/header data=htmlWebpackPlugin.options.data.seo }} --}}
 
+  {{> pageComponents/blockquote-section }}
   {{> pageComponents/footer }}
 </body>
 
