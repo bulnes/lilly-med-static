@@ -1,7 +1,7 @@
 {
 	"name": "lilly-med-static",
 	"version": "1.0.0",
-	"repository": "git@github.com:bulnes/cielo.git",
+	"repository": "git@github.com:bulnes/lilly-med-static.git",
 	"author": "Bruno Bulnes <bulnes.bruno@gmail.com>",
 	"license": "MIT",
 	"scripts": {

@@ -1,3 +1,4 @@
-body {
-  background-color: #cdcdcd;
-}
+@import 'reset';
+@import 'global';
+
+@import 'components/call-to-action/whatsapp-fixed-scroll.scss';

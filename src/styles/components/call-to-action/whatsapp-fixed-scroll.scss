@@ -1,0 +1,54 @@
+.cta-whatsapp-fixed-scroll {
+	position: fixed;
+	bottom: 0;
+	right: 20px;
+	left: 20px;
+	height: 53px;
+	width: auto;
+	z-index: 10;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+
+	background: linear-gradient(180deg, #2bd161 0%, #22a64d 100%);
+	border-radius: 16px 16px 0px 0px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	img {
+		width: 18xp;
+		height: 18px;
+	}
+
+	span {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 13px;
+		line-height: 10px;
+		letter-spacing: 0.05em;
+	}
+
+	@media screen and (min-width: 768px) {
+		bottom: 20px;
+		right: 20px;
+		left: auto;
+
+		width: 87px;
+		height: 87px;
+
+		color: transparent;
+		border-radius: 50%;
+
+		img {
+			width: 58px;
+			height: 58px;
+		}
+
+		span {
+			display: none;
+		}
+	}
+}
