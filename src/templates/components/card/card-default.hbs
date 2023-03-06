@@ -1,0 +1,31 @@
+<div class="card-default">
+  <div class="card-default__cover">
+    <img src="{{ data.cover }}" alt="{{ data.title }}" width="311" height="121" loading="lazy">
+  </div>
+
+  <div class="card-default__content">
+    <div>
+      <h4 class="card-default__title">
+        {{ data.title }}
+      </h4>
+
+      <p class="card-default__subtitle">
+        {{ data.subtitle }}
+      </p>
+
+      <p class="card-default__description">
+        {{ data.description }}
+      </p>
+    </div>
+  </div>
+
+  <a href="{{ data.link }}" title="{{ data.linkText }}" target="_blank" rel="noopener noreferrer"
+    class="card-default__link">
+
+    <img src="/images/icons/icon-whatsapp-white.svg" alt="" width="14.52" height="14.52" loading="lazy" />
+
+    <span class="card-default__link-text">
+      {{ data.linkText }}
+    </span>
+  </a>
+</div>

@@ -1,0 +1,34 @@
+.app-section {
+	width: 100%;
+	height: auto;
+
+	&__link {
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+	}
+
+	&__image {
+		width: 100%;
+		height: auto;
+
+		&--mobile {
+			display: block;
+			aspect-ratio: 414 / 596.93;
+
+			@media screen and (min-width: 768px) {
+				display: none;
+			}
+		}
+
+		&--desktop {
+			display: none;
+			aspect-ratio: 1920 / 730.67;
+
+			@media screen and (min-width: 768px) {
+				display: block;
+			}
+		}
+	}
+}

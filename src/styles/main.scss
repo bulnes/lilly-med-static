@@ -3,8 +3,13 @@
 @import "fonts";
 @import "global";
 
-@import "components/call-to-action/whatsapp-fixed-scroll.scss";
-@import "components/call-to-action/whatsapp-ghost-white.scss";
+@import "components/call-to-action/whatsapp-fixed-scroll";
+@import "components/call-to-action/whatsapp-ghost-white";
+@import "components/card/card-default";
+@import "components/section/section-header";
+@import "components/section/section-body";
 
+@import "pageComponents/sections-cards";
+@import "pageComponents/app-section";
 @import "pageComponents/blockquote-section";
 @import "pageComponents/footer";
