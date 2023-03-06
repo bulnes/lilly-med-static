@@ -59,29 +59,26 @@ module.exports = {
 					type: "card-with-background",
 					treatments: [
 						{
-							cover: "/images/card-default-cover.jpg",
-							title: "Criofrequência",
-							subtitle: "Peeling das celebridades",
-							description:
-								"Peeling com Laser Q-Plus EVO e carvão ativado, clareamento de pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento.",
+							cover: "/images/card-help-gordura-localizada.jpg",
+							title: "Gordura Localizada",
+							subtitle: "",
+							description: "",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
 						{
-							cover: "/images/card-default-cover.jpg",
-							title: "Criolipólise",
-							subtitle: "Peeling das celebridades",
-							description:
-								"Remoção de tatuagens com Laser Q-Switched de última geração. O mais recomendado e seguro para a realização deste procedimento.",
+							cover: "/images/card-help-manchas-na-pele.jpg",
+							title: "Manchas na pele",
+							subtitle: "",
+							description: "",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
 						{
-							cover: "/images/card-default-cover.jpg",
-							title: "Criofrequência",
-							subtitle: "Peeling das celebridades",
-							description:
-								"Peeling com Laser Q-Plus EVO e carvão ativado, clareamento de pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento.",
+							cover: "/images/card-help-rugas.jpg",
+							title: "Rugas",
+							subtitle: "",
+							description: "",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},

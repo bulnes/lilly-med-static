@@ -1,5 +1,7 @@
 .section-body {
-	&--default {
+	&--default,
+	&--help,
+	&--clubs {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;

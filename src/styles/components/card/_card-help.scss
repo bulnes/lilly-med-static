@@ -1,0 +1,36 @@
+.card-help {
+	border-radius: 13.4341px;
+	width: 311px;
+	height: 188.08px;
+
+	@media screen and (min-width: 768px) {
+		width: 463px;
+		height: 280px;
+	}
+
+	&__link {
+		display: block;
+		width: 311px;
+		height: 188.08px;
+		text-decoration: none;
+
+		border-radius: 13.4341px;
+		overflow: hidden;
+
+		@media screen and (min-width: 768px) {
+			border-radius: 20px;
+			width: 463px;
+			height: 280px;
+		}
+	}
+
+	&__img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	&__sr-description {
+		visibility: hidden;
+	}
+}
