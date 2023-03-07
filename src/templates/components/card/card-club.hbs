@@ -1,0 +1,23 @@
+<div class="card-club">
+  <header class="card-club__title">
+    <img src="{{ data.titleIcon }}" alt="" class="card-club__icon" loading="lazy" width="83.29" height="83.29" />
+
+    <p>{{ data.title }}</p>
+  </header>
+
+  <div class="card-club__cover">
+    <img src="{{ data.cover }}" alt="" loading="lazy" width="311" height="134.34">
+  </div>
+
+  <p class="card-club__description">{{ data.description }}</p>
+
+  <a href="{{ data.link }}" title="{{ data.linkText }}" target="_blank" rel="noopener noreferrer"
+    class="card-club__link">
+
+    <img src="/images/icons/icon-whatsapp-white.svg" alt="" width="14.52" height="14.52" loading="lazy" />
+
+    <span class="card-club__link-text">
+      {{ data.linkText }}
+    </span>
+  </a>
+</div>
