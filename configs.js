@@ -18,6 +18,14 @@ module.exports = {
 		},
 		home: {
 			sections: {
+				banners: [
+					{
+						coverMobile: "/images/banners/banner-home-mobile-01.jpg",
+						coverDesktop: "/images/banners/banner-home-desktop-01.jpg",
+						title: "Um novo conceito em beleza chegou ao JK Iguatemi",
+						link: "https://bit.ly/LillyWhatsApp",
+					},
+				],
 				ourClubs: {
 					title: "Conheça os nossos clubes",
 					description:

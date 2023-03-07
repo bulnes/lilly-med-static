@@ -1,0 +1,42 @@
+.banners-section {
+	margin-top: 29px;
+
+	@media screen and (min-width: 768px) {
+		margin-top: 40px;
+	}
+
+	.banner {
+		height: 361px;
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+
+		@media screen and (min-width: 768px) {
+			width: 1456px;
+			height: 534px;
+		}
+
+		&,
+		&__mobile,
+		&__desktop {
+			border-radius: 20px;
+		}
+
+		&__mobile {
+			display: block;
+
+			@media screen and (min-width: 768px) {
+				display: none;
+			}
+		}
+
+		&__desktop {
+			display: none;
+
+			@media screen and (min-width: 768px) {
+				display: block;
+			}
+		}
+	}
+}
