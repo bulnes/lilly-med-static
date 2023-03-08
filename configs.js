@@ -16,6 +16,37 @@ module.exports = {
 			ogImage: `${baseUrl}images/og-image.png`,
 			twitterProfile: "@Lilly_Estetica",
 		},
+		globalHeader: {
+			logo: "/images/logo-lilly-med.svg",
+			logoTitle: "Lilly Med",
+			logoLink: "/",
+			menu: [
+				{
+					title: "Home",
+					href: "/",
+				},
+				{
+					title: "Clubes Lilly",
+					href: "#clubs-lilly",
+				},
+				{
+					title: "O que procura",
+					href: "#o-que-procura",
+				},
+				{
+					title: "Mais vendidos",
+					href: "#mais-vendidos",
+				},
+				{
+					title: "Lilly App",
+					href: "#lilly-app",
+				},
+				{
+					title: "Tratamentos",
+					href: "#tratamentos",
+				},
+			],
+		},
 		home: {
 			sections: {
 				banners: [

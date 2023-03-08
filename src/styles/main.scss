@@ -1,6 +1,7 @@
 @import "variables";
 @import "reset";
 @import "fonts";
+@import "helpers";
 @import "global";
 
 @import "components/call-to-action/whatsapp-fixed-scroll";
@@ -11,6 +12,7 @@
 @import "components/section/section-header";
 @import "components/section/section-body";
 
+@import "pageComponents/header";
 @import "pageComponents/banners-section";
 @import "pageComponents/sections-cards";
 @import "pageComponents/app-section";

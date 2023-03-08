@@ -1,0 +1,135 @@
+.header {
+	background: rgba(255, 255, 255, 0.6);
+	backdrop-filter: blur(21px);
+	border-radius: 0px;
+
+	&__content {
+		height: 80px;
+		position: relative;
+
+		@media screen and (min-width: 768px) {
+			height: 100px;
+
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+	}
+
+	&__logo {
+		height: 100%;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		@media screen and (min-width: 768px) {
+			position: static;
+			top: auto;
+			left: auto;
+			right: auto;
+			bottom: auto;
+			margin: 0;
+
+			img {
+				width: 156.61px;
+				height: 52px;
+			}
+		}
+	}
+
+	&__button-menu-mobile {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		height: 100%;
+		width: 50px;
+		border: none;
+		background-color: transparent;
+		position: absolute;
+		top: 0;
+		right: 0;
+
+		@media screen and (min-width: 768px) {
+			display: none;
+		}
+	}
+
+	&__nav {
+		display: none;
+
+		@media screen and (min-width: 768px) {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 19px;
+		}
+
+		&-link {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 30px;
+			color: #a5a5a5;
+			text-decoration: none;
+
+			&:hover,
+			&--selected {
+				color: #55555d;
+			}
+
+			&::after {
+				content: "|";
+				font-style: normal;
+				font-weight: 300;
+				font-size: 16px;
+				line-height: 30px;
+				margin-left: 19px;
+			}
+
+			&:hover::after {
+				color: #a5a5a5;
+			}
+
+			&:last-child::after {
+				display: none;
+			}
+		}
+	}
+
+	&__whatsapp {
+		width: 216px;
+		height: 58.54px;
+		left: 1472.5px;
+		top: 21.25px;
+
+		background: #000000;
+		border-radius: 100px;
+
+		display: none;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+
+		text-decoration: none;
+
+		@media screen and (min-width: 768px) {
+			display: flex;
+		}
+
+		span {
+			font-style: normal;
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 22px;
+			color: #fff;
+		}
+	}
+}

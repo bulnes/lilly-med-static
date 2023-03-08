@@ -1,5 +1,31 @@
 <header class="header">
-  <span>Header: {{ data.title }}</span>
+  <div class="container">
+    <div class="header__content">
 
-  <img src="/images/logo-lilly-med.svg" alt="Lilly Med">
+      <h1 class="header__logo">
+        <span class="sr-only">{{ data.logoTitle }}</span>
+        <img src="{{ data.logo }}" alt="" width="120" height="39.84" loading="lazy" />
+      </h1>
+
+      <button type="button" class="header__button-menu-mobile">
+        <img src="/images/icons/icon-menu.svg" alt="" width="25" height="18.18" loading="lazy" />
+        <span class="sr-only">Abrir menu</span>
+      </button>
+
+      <nav class="header__nav">
+        {{#each data.menu}}
+        <a href="{{ href }}" title="{{ title }}" class="header__nav-link">
+          {{ title }}
+        </a>
+        {{/each}}
+      </nav>
+
+      <a href="https://bit.ly/LillyWhatsApp" title="Clique aqui e fale conosco pelo WhatsApp" class="header__whatsapp"
+        target="_blank" rel="noopener noreferrer">
+        <img src="/images/icons/icon-whatsapp-white.svg" alt="" width="16" height="16" loading="lazy" />
+        <span>Fale conosco</span>
+      </a>
+
+    </div>
+  </div>
 </header>
