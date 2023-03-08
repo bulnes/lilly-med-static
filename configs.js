@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:8080/";
+const baseUrl = "https://lilly-med-static.vercel.app/";
 
 module.exports = {
 	data: {
@@ -13,7 +13,7 @@ module.exports = {
 			publisher: "https://www.lillyestetica.com.br",
 			url: baseUrl,
 			favIcon: `${baseUrl}images/favicon.png`,
-			ogImage: `${baseUrl}images/og-image.png`,
+			ogImage: `${baseUrl}images/og-image.jpg`,
 			twitterProfile: "@Lilly_Estetica",
 		},
 		globalHeader: {
