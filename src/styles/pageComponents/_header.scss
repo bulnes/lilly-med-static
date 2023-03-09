@@ -77,12 +77,17 @@
 			font-weight: 400;
 			font-size: 16px;
 			line-height: 30px;
-			color: #a5a5a5;
+			color: #333;
 			text-decoration: none;
 
-			&:hover,
-			&--selected {
-				color: #55555d;
+			span {
+				border-bottom: 1px solid transparent;
+				padding-bottom: 0.3rem;
+			}
+
+			&:hover span,
+			&--selected span {
+				border-bottom: 1px solid #55555d;
 			}
 
 			&::after {
@@ -94,10 +99,6 @@
 				margin-left: 19px;
 			}
 
-			&:hover::after {
-				color: #a5a5a5;
-			}
-
 			&:last-child::after {
 				display: none;
 			}
@@ -106,7 +107,7 @@
 
 	&__whatsapp {
 		width: 216px;
-		height: 58.54px;
+		height: 48px;
 		left: 1472.5px;
 		top: 21.25px;
 

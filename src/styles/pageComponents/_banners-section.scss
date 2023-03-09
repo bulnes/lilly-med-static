@@ -15,14 +15,16 @@
 		justify-content: center;
 
 		@media screen and (min-width: 768px) {
-			width: 1456px;
-			height: 534px;
+			width: 1200px;
+			height: auto;
 		}
 
 		&,
 		&__mobile,
 		&__desktop {
 			border-radius: 20px;
+			width: 100%;
+			height: auto;
 		}
 
 		&__mobile {
