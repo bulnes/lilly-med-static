@@ -19,7 +19,6 @@ const defaultSliderConfig = {
 			gutter: 33,
 			center: false,
 			loop: true,
-			rewind: false,
 		},
 	},
 };
