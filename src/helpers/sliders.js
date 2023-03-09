@@ -21,6 +21,9 @@ const defaultSliderConfig = {
 			gutter: 33,
 			center: false,
 			loop: true,
+			autoplay: true,
+			autoplayHoverPause: true,
+			autoplayTimeout: 3500,
 		},
 	},
 };
