@@ -8,20 +8,19 @@ const defaultSliderConfig = {
 	swipeAngle: false,
 	speed: 400,
 	autoWidth: true,
+	rewind: true,
 	responsive: {
 		0: {
 			items: 2,
 			gutter: 23,
 			center: true,
 			loop: false,
-			rewind: true,
 		},
 		768: {
 			items: 3,
 			gutter: 33,
 			center: false,
 			loop: true,
-			rewind: false,
 		},
 	},
 };
