@@ -1,5 +1,9 @@
 <main class="section-body section-body--clubs">
-  {{#each data.treatments}}
-  {{> ../card/card-club data=this }}
-  {{/each}}
+  <div class="slider-default">
+    {{#each data.treatments}}
+    <div>
+      {{> ../card/card-club data=this }}
+    </div>
+    {{/each}}
+  </div>
 </main>

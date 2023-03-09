@@ -1,5 +1,9 @@
 <main class="section-body section-body--default">
-  {{#each data.treatments}}
-  {{> ../card/card-default data=this }}
-  {{/each}}
+  <div class="slider-default">
+    {{#each data.treatments}}
+    <div>
+      {{> ../card/card-default data=this }}
+    </div>
+    {{/each}}
+  </div>
 </main>
