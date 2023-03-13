@@ -1,0 +1,44 @@
+.splide {
+	margin-bottom: 50px;
+
+	@media screen and (min-width: 768px) {
+		margin-bottom: 60px;
+	}
+}
+
+.splide__pagination {
+	margin-bottom: -40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+
+	@media screen and (min-width: 768px) {
+		margin-bottom: -50px;
+	}
+
+	button {
+		width: 12px;
+		height: 12px;
+		background-color: #d7d6d6;
+		border: 1px solid #5a5a5a;
+		border-radius: 50%;
+
+		@media screen and (min-width: 768px) {
+			width: 12px;
+			height: 12px;
+			background-color: #ffffff;
+		}
+
+		&.is-active {
+			width: 38px;
+			background-color: #5a5a5a;
+			border-radius: 15px;
+			transform: none;
+
+			@media screen and (min-width: 768px) {
+				width: 50px;
+			}
+		}
+	}
+}

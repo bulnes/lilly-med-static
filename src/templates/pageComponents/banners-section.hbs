@@ -1,14 +1,16 @@
 <section class="banners-section" id="main-banner">
-  <div class="container">
-    <div class="slider-default">
-      {{#each data}}
-      <div>
-        <a href="{{ link }}" title="{{ title }}" target="_blank" rel="noopener noreferrer" class="banner">
-          <img src="{{ coverMobile }}" alt="" width="350" height="361" loading="lazy" class="banner__mobile" />
-          <img src="{{ coverDesktop }}" alt="" width="1456" height="534" loading="lazy" class="banner__desktop" />
-        </a>
-      </div>
-      {{/each}}
+  <div class="splide splide--banner">
+    <div class="splide__track">
+      <ul class="splide__list">
+        {{#each data}}
+        <li class="splide__slide">
+          <a href="{{ link }}" title="{{ title }}" target="_blank" rel="noopener noreferrer" class="banner">
+            <img src="{{ coverMobile }}" alt="" width="350" height="361" loading="lazy" class="banner__mobile" />
+            <img src="{{ coverDesktop }}" alt="" width="1456" height="534" loading="lazy" class="banner__desktop" />
+          </a>
+        </li>
+        {{/each}}
+      </ul>
     </div>
   </div>
 </section>

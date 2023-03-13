@@ -1,44 +1,63 @@
-import { tns } from "tiny-slider/src/tiny-slider";
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable no-plusplus */
+import Splide from "@splidejs/splide";
 
-const defaultSliderConfig = {
-	container: ".slider-default",
-	preventScrollOnTouch: "auto",
-	controls: false,
-	navPosition: "bottom",
-	loop: false,
-	items: 2,
-	gutter: 23,
-	swipeAngle: false,
-	speed: 400,
-	rewind: true,
-	center: true,
+const defaultSplide = {
+	mediaQuery: "min",
+	trimSpace: false,
+	focus: "center",
+	perPage: 3,
+	autoHeight: true,
 	autoWidth: true,
-	responsive: {
+	gap: 23,
+	autoplay: true,
+	breakpoints: {
 		768: {
-			items: 3,
-			gutter: 33,
-			center: false,
-			loop: true,
+			trimSpace: true,
+			focus: "center",
+			perPage: 3,
+			autoHeight: true,
+			autoWidth: true,
+			gap: 33,
 			autoplay: true,
-			autoplayPosition: "bottom",
-			autoplayHoverPause: true,
-			autoplayButton: false,
-			autoplayButtonOutput: false,
-			autoplayText: ["", ""],
+		},
+	},
+};
+
+// Exclusive to Banner format
+const bannerSplide = {
+	mediaQuery: "min",
+	trimSpace: false,
+	focus: "center",
+	perPage: 3,
+	autoHeight: true,
+	autoWidth: true,
+	gap: 23,
+	autoplay: true,
+	breakpoints: {
+		1200: {
+			trimSpace: false,
+			focus: "center",
+			perPage: 1,
+			autoHeight: false,
+			autoWidth: false,
+			height: "440px",
+			width: "1200px",
+			gap: 33,
+			autoplay: true,
 		},
 	},
 };
 
 function initDefaultSliders() {
-	const defaultSliders = [...document.querySelectorAll(".slider-default")];
+	const elms = document.getElementsByClassName("splide");
+	for (let i = 0; i < elms.length; i++) {
+		const configs = elms[i].classList.contains("splide--banner")
+			? bannerSplide
+			: defaultSplide;
 
-	defaultSliders.forEach((sliderContainer) => {
-		const uniqueId = `slider-${Math.random().toString(36).substr(2, 9)}`;
-		// eslint-disable-next-line no-param-reassign
-		sliderContainer.id = uniqueId;
-
-		tns({ ...defaultSliderConfig, container: `#${uniqueId}` });
-	});
+		new Splide(elms[i], { ...configs }).mount();
+	}
 }
 
 export default initDefaultSliders;

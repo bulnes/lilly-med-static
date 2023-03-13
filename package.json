@@ -42,7 +42,7 @@
 		"webpack-dev-server": "^4.4.0"
 	},
 	"dependencies": {
-		"tiny-slider": "^2.9.4"
+		"@splidejs/splide": "^4.1.4"
 	},
 	"lint-staged": {
 		"**/*": "prettier --write --ignore-unknown"

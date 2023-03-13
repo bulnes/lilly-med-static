@@ -1,9 +1,13 @@
 <main class="section-body section-body--default">
-  <div class="slider-default">
-    {{#each data.treatments}}
-    <div>
-      {{> ../card/card-default data=this }}
+  <div class="splide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        {{#each data.treatments}}
+        <li class="splide__slide">
+          {{> ../card/card-default data=this }}
+        </li>
+        {{/each}}
+      </ul>
     </div>
-    {{/each}}
   </div>
 </main>
