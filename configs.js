@@ -273,7 +273,7 @@ module.exports = {
 							title: "Fortalecimento Muscular",
 							subtitle: "",
 							description:
-								"Alta tecnologia que permite o fortalecimento e tonificação dos músculos, queima de gordura localizada de forma rápida e não invasiva com resultados comprovados, podendo ser aplicado nos braços, abdômen, flancos, glúteo, coxas e panturrilhas",
+								"Alta tecnologia que permite o fortalecimento e tonificação dos músculos, queima de gordura localizada de forma rápida e não invasiva, podendo ser aplicado nos braços, abdômen, flancos, glúteo, coxas e panturrilhas",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
