@@ -4,7 +4,6 @@ import Splide from "@splidejs/splide";
 
 const defaultSplide = {
 	mediaQuery: "min",
-	type: "loop",
 	trimSpace: false,
 	focus: "center",
 	perPage: 3,
@@ -15,7 +14,6 @@ const defaultSplide = {
 	interval: 4000,
 	breakpoints: {
 		768: {
-			type: "slide",
 			trimSpace: true,
 			focus: "center",
 			perPage: 3,
