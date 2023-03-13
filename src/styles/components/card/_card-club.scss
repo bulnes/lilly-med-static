@@ -1,6 +1,6 @@
 .card-club {
 	width: 311px;
-	height: 452px;
+	height: 472px;
 	background-color: white;
 	border-radius: 13.4341px;
 
@@ -10,7 +10,7 @@
 	@media screen and (min-width: 768px) {
 		border-radius: 20px;
 		width: 378px;
-		height: 648.03px;
+		height: 608.03px;
 	}
 
 	&__title {
@@ -41,7 +41,7 @@
 			gap: 21px;
 
 			padding: 31.09px 30px 36px;
-			height: 177.89px;
+			height: 157.89px;
 		}
 	}
 
@@ -76,7 +76,7 @@
 	&__description {
 		font-style: normal;
 		font-weight: 400;
-		font-size: 13.4341px;
+		font-size: 14px;
 		line-height: 19px;
 		color: #656565;
 
@@ -116,8 +116,8 @@
 		@media screen and (min-width: 768px) {
 			width: calc(100% - 70px);
 			margin: auto auto 40px;
-			font-size: 20px;
-			line-height: 22px;
+			font-size: 18px;
+			line-height: 20px;
 
 			img {
 				width: 17px;

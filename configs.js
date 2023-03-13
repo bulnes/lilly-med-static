@@ -81,7 +81,7 @@ module.exports = {
 							titleIcon: "/images/icons/icon-club-club.png",
 							subtitle: "Peeling das celebridades",
 							description:
-								"Por mensalidades fixas, você aplica toxina botulínica, de primeiríssima qualidade, uma, duas ou três vezes ao ano, em uma, duas ou três regiões. São 6 planos com excelente custo benefício. Escolha o seu!",
+								"Clube mais versátil da Lilly. Você se associa, paga mensalidades fixas e faz 1 ou 2 sessões por mês de 30 minutos de qualquer* tratamento e ainda tem descontos exclusivos nos outros tratamentos da Lilly.",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Conheça o Lilly Club",
 						},
@@ -91,7 +91,7 @@ module.exports = {
 							titleIcon: "/images/icons/icon-club-boto.png",
 							subtitle: "",
 							description:
-								"Por mensalidades fixas, você aplica toxina botulínica, de primeiríssima qualidade, uma, duas ou três vezes ao ano, em uma, duas ou três regiões. São 6 planos com excelente custo benefício. Escolha o seu!",
+								"No Lilly Boto Club, o cliente se associa, paga mensalidades fixas e aplica toxina botulínica, de primeiríssima qualidade uma ou duas vezes por ano, em uma, duas ou três regiões. São 6 planos de excelente custo benefício!",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Conheça o Boto Club",
 						},
@@ -101,37 +101,7 @@ module.exports = {
 							titleIcon: "/images/icons/icon-club-laser.png",
 							subtitle: "",
 							description:
-								"Por mensalidades fixas, você aplica toxina botulínica, de primeiríssima qualidade, uma, duas ou três vezes ao ano, em uma, duas ou três regiões. São 6 planos com excelente custo benefício. Escolha o seu!",
-							link: "https://bit.ly/LillyWhatsApp",
-							linkText: "Conheça o Laser Club",
-						},
-						{
-							cover: "/images/card-club-club.jpg",
-							title: "Acesso a mais de 30 tratamentos",
-							titleIcon: "/images/icons/icon-club-club.png",
-							subtitle: "Peeling das celebridades",
-							description:
-								"Por mensalidades fixas, você aplica toxina botulínica, de primeiríssima qualidade, uma, duas ou três vezes ao ano, em uma, duas ou três regiões. São 6 planos com excelente custo benefício. Escolha o seu!",
-							link: "https://bit.ly/LillyWhatsApp",
-							linkText: "Conheça o Lilly Club",
-						},
-						{
-							cover: "/images/card-club-boto.jpg",
-							title: "Toxina Botulínica",
-							titleIcon: "/images/icons/icon-club-boto.png",
-							subtitle: "",
-							description:
-								"Por mensalidades fixas, você aplica toxina botulínica, de primeiríssima qualidade, uma, duas ou três vezes ao ano, em uma, duas ou três regiões. São 6 planos com excelente custo benefício. Escolha o seu!",
-							link: "https://bit.ly/LillyWhatsApp",
-							linkText: "Conheça o Boto Club",
-						},
-						{
-							cover: "/images/card-club-laser.jpg",
-							title: "Depilação a Laser",
-							titleIcon: "/images/icons/icon-club-laser.png",
-							subtitle: "",
-							description:
-								"Por mensalidades fixas, você aplica toxina botulínica, de primeiríssima qualidade, uma, duas ou três vezes ao ano, em uma, duas ou três regiões. São 6 planos com excelente custo benefício. Escolha o seu!",
+								"Clube para depilação a laser definitiva. Os membros pagam uma mensalidade fixa e faz 30 minutos de depilação a laser, nas áreas onde quiser, a cada 45 dias. E mais: descontos exclusivos nos outros tratamentos da Lilly.",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Conheça o Laser Club",
 						},
@@ -198,56 +168,59 @@ module.exports = {
 					type: "card-default",
 					treatments: [
 						{
-							cover: "/images/card-default-cover.jpg",
-							title: "Criofrequência",
+							cover:
+								"/images/tratamentos/thumbs-hollywood-peel-peeling-das-celebridades-1.webp",
+							title: "Hollywood Peel",
 							subtitle: "Peeling das celebridades",
 							description:
-								"Peeling com Laser Q-Plus EVO e carvão ativado, clareamento de pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento.",
+								"Peeling com Laser Q-Plus Evo e carvão ativado, clareamento da pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento, pele mais firme...",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
 						{
-							cover: "/images/card-default-cover.jpg",
-							title: "Criolipólise",
-							subtitle: "Peeling das celebridades",
+							cover: "/images/tratamentos/thumbs-remocao-de-tatuagem-1.webp",
+							title: "Remoção de Tatuagem",
+							subtitle: "Tratamento a laser",
 							description:
-								"Remoção de tatuagens com Laser Q-Switched de última geração. O mais recomendado e seguro para a realização deste procedimento.",
+								"Remoção de Tatuagem com Laser Q-Plus Evo - Última geração de tratamento, sendo o mais recomendado e seguro para a realização do procedimento.",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
 						{
-							cover: "/images/card-default-cover.jpg",
-							title: "Criofrequência",
-							subtitle: "Peeling das celebridades",
+							cover: "/images/tratamentos/thumbs-ultra-papada-1.webp",
+							title: "Ultraformer",
+							subtitle: "Tratamento da flacidez",
 							description:
-								"Peeling com Laser Q-Plus EVO e carvão ativado, clareamento de pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento.",
+								"Protocolo Facial Completo. O mais famoso protocolo do Ultraformer, o modo Full Face une protocolos de tratamento de flacidez muscular e tissular, ancoragem muscular e neocolagenese.",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
 						{
-							cover: "/images/card-default-cover.jpg",
-							title: "Criofrequência",
-							subtitle: "Peeling das celebridades",
+							cover:
+								"/images/tratamentos/thumbs-radiancy-body-trate-flacidez-1.webp",
+							title: "Radiancy Body",
+							subtitle: "Tratamento da flacidez",
 							description:
-								"Peeling com Laser Q-Plus EVO e carvão ativado, clareamento de pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento.",
+								"Trata a flacidez de pequenas áreas corporais com Laser Q-Plus Evo de até 10cm. Indicado para todos os fototipos, ele atua no aquecimento controlado da pele, induz a produção de colágeno...",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
 						{
-							cover: "/images/card-default-cover.jpg",
-							title: "Criolipólise",
-							subtitle: "Peeling das celebridades",
+							cover:
+								"/images/tratamentos/thumbs-tratamento-para-melasma-1.webp",
+							title: "Tratametno de Melasma",
+							subtitle: "Adeus às Manchas",
 							description:
-								"Remoção de tatuagens com Laser Q-Switched de última geração. O mais recomendado e seguro para a realização deste procedimento.",
+								"Tratamento e clareamento com Laser Q-Plus Evo das tão temidas manchas facias, os Melasmas.",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
 						{
-							cover: "/images/card-default-cover.jpg",
-							title: "Criofrequência",
-							subtitle: "Peeling das celebridades",
+							cover: "/images/tratamentos/thumbs-tratamento-de-vasinhos-1.webp",
+							title: "Vasinhos (PEIM)",
+							subtitle: "Pele linda e sem vasinhos",
 							description:
-								"Peeling com Laser Q-Plus EVO e carvão ativado, clareamento de pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento.",
+								"O Procedimento Estético Injetável em Microvasos (PEIM), utiliza agulhas finas para injetar substâncias capazes de desobstruir e eliminar os vasinhos.",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
@@ -259,56 +232,114 @@ module.exports = {
 					type: "card-default",
 					treatments: [
 						{
-							cover: "/images/card-default-cover.jpg",
+							cover: "/images/tratamentos/thumbs-criofrequencia-axilar-1.webp",
 							title: "Criofrequência",
-							subtitle: "Peeling das celebridades",
+							subtitle: "",
 							description:
-								"Peeling com Laser Q-Plus EVO e carvão ativado, clareamento de pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento.",
+								"Alta tecnologia para diminuição da gordura localizada e flacidez. Áreas para tratamento: Axilar, Abdômen, Flancos, Culotes, Bananinha, Posterior Coxa, Interno de Coxa, Borda Escapular, Braços, Papada, Bochecha, Full Face, Pálpebras, Coxas, Glúteos e Pescoço",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
 						{
-							cover: "/images/card-default-cover.jpg",
+							cover: "/images/tratamentos/thumbs-tratamento-de-por-area-1.webp",
 							title: "Criolipólise",
-							subtitle: "Peeling das celebridades",
+							subtitle: "",
 							description:
-								"Remoção de tatuagens com Laser Q-Switched de última geração. O mais recomendado e seguro para a realização deste procedimento.",
+								"Congele de gordura localizada com Criolipólise de Constraste. Diminuição de medidas, afinamento da silhueta e diminuição de gordura abdominal",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
 						{
-							cover: "/images/card-default-cover.jpg",
-							title: "Criofrequência",
-							subtitle: "Peeling das celebridades",
+							cover: "/images/tratamentos/thumbs-acne-ativa-1.webp",
+							title: "Estrias, cicatrizes, manchas e acne",
+							subtitle: "",
 							description:
-								"Peeling com Laser Q-Plus EVO e carvão ativado, clareamento de pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento.",
+								"Alta tecnologia especial para tratar estrias, lesões pigmentadas, cicatrizes de acne, clarear manchas, cicatrizes, sardas indesejadas e tons avermelhados no rosto",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
 						{
-							cover: "/images/card-default-cover.jpg",
-							title: "Criofrequência",
-							subtitle: "Peeling das celebridades",
+							cover:
+								"/images/tratamentos/thumbs-radiancy-body-trate-flacidez-1.webp",
+							title: "Flacidez",
+							subtitle: "",
 							description:
-								"Peeling com Laser Q-Plus EVO e carvão ativado, clareamento de pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento.",
+								"Trata a flacidez de pequenas áreas corporais com Laser Q-Plus Evo. Indicado para todos os fototipos, ele atua no aquecimento controlado da pele, induz a produção de colágeno, resultando no efeito Lifting da área tratada",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
 						{
-							cover: "/images/card-default-cover.jpg",
-							title: "Criolipólise",
-							subtitle: "Peeling das celebridades",
+							cover: "/images/tratamentos/thumbs-muscular-1.webp",
+							title: "Fortalecimento Muscular",
+							subtitle: "",
 							description:
-								"Remoção de tatuagens com Laser Q-Switched de última geração. O mais recomendado e seguro para a realização deste procedimento.",
+								"Alta tecnologia que permite o fortalecimento e tonificação dos músculos, queima de gordura localizada de forma rápida e não invasiva com resultados comprovados, podendo ser aplicado nos braços, abdômen, flancos, glúteo, coxas e panturrilhas",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
 						{
-							cover: "/images/card-default-cover.jpg",
-							title: "Criofrequência",
-							subtitle: "Peeling das celebridades",
+							cover:
+								"/images/tratamentos/thumbs-hollywood-peel-peeling-das-celebridades-1.webp",
+							title: "Hollywood Peel",
+							subtitle: "",
 							description:
-								"Peeling com Laser Q-Plus EVO e carvão ativado, clareamento de pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento.",
+								"Peeling com Laser Q-Plus Evo e carvão ativado, clareamento da pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento, pele mais firme, melhora do contorno facial",
+							link: "https://bit.ly/LillyWhatsApp",
+							linkText: "Saiba mais",
+						},
+						{
+							cover:
+								"/images/tratamentos/thumbs-tratamento-micose-de-unhas-1.webp",
+							title: "Micose de unhas",
+							subtitle: "",
+							description:
+								"Tratamento para Micose de unhas com Laser Q-Plus Evo. Atua com precisão sobre a matriz fúngica da unha, apresentando grande eficácia de resultados, com máxima segurança",
+							link: "https://bit.ly/LillyWhatsApp",
+							linkText: "Saiba mais",
+						},
+						{
+							cover:
+								"/images/tratamentos/thumbs-radiofrequencia-maximus-med-trilipo-corporal-1.webp",
+							title: "Radiofrequência",
+							subtitle: "",
+							description:
+								"Única Radiofrequência Tripolar que possui 3 tecnologias para tratar três camadas de pele de uma única vez.",
+							link: "https://bit.ly/LillyWhatsApp",
+							linkText: "Saiba mais",
+						},
+						{
+							cover: "/images/tratamentos/thumbs-rejuvenescimento-7d-1.webp",
+							title: "Rejuvenescimento",
+							subtitle: "",
+							description:
+								"Alta tecnologia especial para tratar rugas profundas, sinais de envelhecimento, rejuvenescimento dos lábios, olheiras e hiperpigmentações pós inflamatórias com Laser Q-Plus Evo sem cortes.",
+							link: "https://bit.ly/LillyWhatsApp",
+							linkText: "Saiba mais",
+						},
+						{
+							cover: "/images/tratamentos/thumbs-remocao-de-tatuagem-1.webp",
+							title: "Remoção de Tatuagem",
+							subtitle: "",
+							description:
+								"Remoção de Tatuagem com Laser Q-Plus Evo - Última geração de tratamento, sendo o mais recomendado e seguro para a realização do procedimento",
+							link: "https://bit.ly/LillyWhatsApp",
+							linkText: "Saiba mais",
+						},
+						{
+							cover: "/images/tratamentos/thumbs-ultra-bumbum-up-1.webp",
+							title: "Ultraformer",
+							subtitle: "",
+							description:
+								"O melhor Ultrassom Micro e Macrofocado do mundo! O Ultraformer III é a escolha certa para secar a gordura localizada. Cirurgia sem corte",
+							link: "https://bit.ly/LillyWhatsApp",
+							linkText: "Saiba mais",
+						},
+						{
+							cover: "/images/tratamentos/thumbs-tratamento-de-vasinhos-1.webp",
+							title: "Vasinhos (PEIM)",
+							subtitle: "",
+							description:
+								"O Procedimento Estético Invasivo Mínimo (PEIM), utiliza agulhas finas para injetar substâncias capazes de desobstruir e eliminar os vasinhos.",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
