@@ -4,6 +4,7 @@ import Splide from "@splidejs/splide";
 
 const defaultSplide = {
 	mediaQuery: "min",
+	type: "loop",
 	trimSpace: false,
 	focus: "center",
 	perPage: 3,
@@ -14,6 +15,7 @@ const defaultSplide = {
 	interval: 4000,
 	breakpoints: {
 		768: {
+			type: "loop",
 			trimSpace: true,
 			focus: "center",
 			perPage: 3,
@@ -29,6 +31,7 @@ const defaultSplide = {
 // Exclusive to Banner format
 const bannerSplide = {
 	mediaQuery: "min",
+	type: "loop",
 	trimSpace: false,
 	focus: "center",
 	perPage: 3,
@@ -39,6 +42,7 @@ const bannerSplide = {
 	interval: 4000,
 	breakpoints: {
 		1200: {
+			type: "loop",
 			trimSpace: false,
 			focus: "center",
 			perPage: 1,
