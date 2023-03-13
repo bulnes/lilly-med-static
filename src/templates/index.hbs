@@ -13,9 +13,17 @@
   {{> pageComponents/banners-section data=htmlWebpackPlugin.options.data.home.sections.banners }}
   {{> pageComponents/section-cards-club data=htmlWebpackPlugin.options.data.home.sections.ourClubs }}
   {{> pageComponents/section-cards-help data=htmlWebpackPlugin.options.data.home.sections.howWeCanHelp }}
-  {{> pageComponents/section-cards-default data=htmlWebpackPlugin.options.data.home.sections.ourTopTreatments }}
+
+  <div id="mais-vendidos">
+    {{> pageComponents/section-cards-default data=htmlWebpackPlugin.options.data.home.sections.ourTopTreatments }}
+  </div>
+
   {{> pageComponents/app-section }}
-  {{> pageComponents/section-cards-default data=htmlWebpackPlugin.options.data.home.sections.ourTreatments }}
+
+  <div id="tratamentos">
+    {{> pageComponents/section-cards-default data=htmlWebpackPlugin.options.data.home.sections.ourTreatments }}
+  </div>
+
   {{> pageComponents/blockquote-section }}
   {{> pageComponents/footer }}
 </body>

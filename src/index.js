@@ -1,4 +1,5 @@
 import initDefaultSliders from "./helpers/sliders";
+import { configMenuMobileLinks } from "./helpers/toggle-menu-mobile";
 import "./styles/main.scss";
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -6,5 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 window.addEventListener("load", () => {
+	configMenuMobileLinks();
 	initDefaultSliders();
 });

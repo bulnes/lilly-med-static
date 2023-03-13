@@ -7,10 +7,26 @@
         <img src="{{ data.logo }}" alt="" width="120" height="39.84" loading="lazy" />
       </h1>
 
-      <button type="button" class="header__button-menu-mobile">
+      <button type="button" class="header__button-menu-mobile" data-menu-mobile-link>
         <img src="/images/icons/icon-menu.svg" alt="" width="25" height="18.18" loading="lazy" />
         <span class="sr-only">Abrir menu</span>
       </button>
+
+      <nav class="header__nav-mobile">
+        <div class="header__nav-mobile__content">
+
+          <button type="button" class="header__nav-mobile__close" data-menu-mobile-link>
+            <img src="/images/icons/icon-close.svg" alt="" width="25" height="25" loading="lazy" />
+            <span class="sr-only">Fechar menu</span>
+          </button>
+
+          {{#each data.menu}}
+          <a href="{{ href }}" title="{{ title }}" class="header__nav-mobile-link" data-menu-mobile-link>
+            <span>{{ title }}</span>
+          </a>
+          {{/each}}
+        </div>
+      </nav>
 
       <nav class="header__nav">
         {{#each data.menu}}
