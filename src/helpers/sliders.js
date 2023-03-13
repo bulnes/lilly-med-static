@@ -11,6 +11,7 @@ const defaultSplide = {
 	autoWidth: true,
 	gap: 23,
 	autoplay: true,
+	interval: 4000,
 	breakpoints: {
 		768: {
 			trimSpace: true,
@@ -20,6 +21,7 @@ const defaultSplide = {
 			autoWidth: true,
 			gap: 33,
 			autoplay: true,
+			interval: 4000,
 		},
 	},
 };
@@ -34,6 +36,7 @@ const bannerSplide = {
 	autoWidth: true,
 	gap: 23,
 	autoplay: true,
+	interval: 4000,
 	breakpoints: {
 		1200: {
 			trimSpace: false,
@@ -45,6 +48,7 @@ const bannerSplide = {
 			width: "1200px",
 			gap: 33,
 			autoplay: true,
+			interval: 4000,
 		},
 	},
 };
