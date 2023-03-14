@@ -172,30 +172,21 @@ module.exports = {
 					type: "card-default",
 					treatments: [
 						{
+							cover: "/images/tratamentos/thumbs-ultra-papada-1.webp",
+							title: "Ultraformer",
+							subtitle: "Tratamento da flacidez",
+							description:
+								"Protocolo Facial Completo. O mais famoso protocolo do Ultraformer, o modo Full Face une protocolos de tratamento de flacidez muscular e tissular, ancoragem muscular e neocolagenese.",
+							link: "https://bit.ly/LillyWhatsApp",
+							linkText: "Saiba mais",
+						},
+						{
 							cover:
 								"/images/tratamentos/thumbs-hollywood-peel-peeling-das-celebridades-1.webp",
 							title: "Hollywood Peel",
 							subtitle: "Peeling das celebridades",
 							description:
 								"Peeling com Laser Q-Plus Evo e carvão ativado, clareamento da pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento, pele mais firme...",
-							link: "https://bit.ly/LillyWhatsApp",
-							linkText: "Saiba mais",
-						},
-						{
-							cover: "/images/tratamentos/thumbs-remocao-de-tatuagem-1.webp",
-							title: "Remoção de Tatuagem",
-							subtitle: "Tratamento a laser",
-							description:
-								"Remoção de Tatuagem com Laser Q-Plus Evo - Última geração de tratamento, sendo o mais recomendado e seguro para a realização do procedimento.",
-							link: "https://bit.ly/LillyWhatsApp",
-							linkText: "Saiba mais",
-						},
-						{
-							cover: "/images/tratamentos/thumbs-ultra-papada-1.webp",
-							title: "Ultraformer",
-							subtitle: "Tratamento da flacidez",
-							description:
-								"Protocolo Facial Completo. O mais famoso protocolo do Ultraformer, o modo Full Face une protocolos de tratamento de flacidez muscular e tissular, ancoragem muscular e neocolagenese.",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
@@ -219,15 +210,6 @@ module.exports = {
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
-						{
-							cover: "/images/tratamentos/thumbs-tratamento-de-vasinhos-1.webp",
-							title: "Vasinhos (PEIM)",
-							subtitle: "Pele linda e sem vasinhos",
-							description:
-								"O Procedimento Estético Injetável em Microvasos (PEIM), utiliza agulhas finas para injetar substâncias capazes de desobstruir e eliminar os vasinhos.",
-							link: "https://bit.ly/LillyWhatsApp",
-							linkText: "Saiba mais",
-						},
 					],
 				},
 				ourTreatments: {
@@ -236,20 +218,30 @@ module.exports = {
 					type: "card-default",
 					treatments: [
 						{
-							cover: "/images/tratamentos/thumbs-criofrequencia-axilar-1.webp",
-							title: "Criofrequência",
+							cover: "/images/tratamentos/thumbs-ultra-bumbum-up-1.webp",
+							title: "Ultraformer",
 							subtitle: "",
 							description:
-								"Alta tecnologia para diminuição da gordura localizada e flacidez. Áreas para tratamento: Axilar, Abdômen, Flancos, Culotes, Bananinha, Posterior Coxa, Interno de Coxa, Borda Escapular, Braços, Papada, Bochecha, Full Face, Pálpebras, Coxas, Glúteos e Pescoço",
+								"O melhor Ultrassom Micro e Macrofocado do mundo! O Ultraformer III é a escolha certa para secar a gordura localizada. Cirurgia sem corte",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
 						{
-							cover: "/images/tratamentos/thumbs-tratamento-de-por-area-1.webp",
-							title: "Criolipólise",
+							cover:
+								"/images/tratamentos/thumbs-radiofrequencia-maximus-med-trilipo-corporal-1.webp",
+							title: "Radiofrequência",
 							subtitle: "",
 							description:
-								"Congele de gordura localizada com Criolipólise de Constraste. Diminuição de medidas, afinamento da silhueta e diminuição de gordura abdominal",
+								"Única Radiofrequência Tripolar que possui 3 tecnologias para tratar três camadas de pele de uma única vez.",
+							link: "https://bit.ly/LillyWhatsApp",
+							linkText: "Saiba mais",
+						},
+						{
+							cover: "/images/tratamentos/thumbs-rejuvenescimento-7d-1.webp",
+							title: "Rejuvenescimento",
+							subtitle: "",
+							description:
+								"Alta tecnologia especial para tratar rugas profundas, sinais de envelhecimento, rejuvenescimento dos lábios, olheiras e hiperpigmentações pós inflamatórias com Laser Q-Plus Evo sem cortes.",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
@@ -288,62 +280,6 @@ module.exports = {
 							subtitle: "",
 							description:
 								"Peeling com Laser Q-Plus Evo e carvão ativado, clareamento da pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento, pele mais firme, melhora do contorno facial",
-							link: "https://bit.ly/LillyWhatsApp",
-							linkText: "Saiba mais",
-						},
-						{
-							cover:
-								"/images/tratamentos/thumbs-tratamento-micose-de-unhas-1.webp",
-							title: "Micose de unhas",
-							subtitle: "",
-							description:
-								"Tratamento para Micose de unhas com Laser Q-Plus Evo. Atua com precisão sobre a matriz fúngica da unha, apresentando grande eficácia de resultados, com máxima segurança",
-							link: "https://bit.ly/LillyWhatsApp",
-							linkText: "Saiba mais",
-						},
-						{
-							cover:
-								"/images/tratamentos/thumbs-radiofrequencia-maximus-med-trilipo-corporal-1.webp",
-							title: "Radiofrequência",
-							subtitle: "",
-							description:
-								"Única Radiofrequência Tripolar que possui 3 tecnologias para tratar três camadas de pele de uma única vez.",
-							link: "https://bit.ly/LillyWhatsApp",
-							linkText: "Saiba mais",
-						},
-						{
-							cover: "/images/tratamentos/thumbs-rejuvenescimento-7d-1.webp",
-							title: "Rejuvenescimento",
-							subtitle: "",
-							description:
-								"Alta tecnologia especial para tratar rugas profundas, sinais de envelhecimento, rejuvenescimento dos lábios, olheiras e hiperpigmentações pós inflamatórias com Laser Q-Plus Evo sem cortes.",
-							link: "https://bit.ly/LillyWhatsApp",
-							linkText: "Saiba mais",
-						},
-						{
-							cover: "/images/tratamentos/thumbs-remocao-de-tatuagem-1.webp",
-							title: "Remoção de Tatuagem",
-							subtitle: "",
-							description:
-								"Remoção de Tatuagem com Laser Q-Plus Evo - Última geração de tratamento, sendo o mais recomendado e seguro para a realização do procedimento",
-							link: "https://bit.ly/LillyWhatsApp",
-							linkText: "Saiba mais",
-						},
-						{
-							cover: "/images/tratamentos/thumbs-ultra-bumbum-up-1.webp",
-							title: "Ultraformer",
-							subtitle: "",
-							description:
-								"O melhor Ultrassom Micro e Macrofocado do mundo! O Ultraformer III é a escolha certa para secar a gordura localizada. Cirurgia sem corte",
-							link: "https://bit.ly/LillyWhatsApp",
-							linkText: "Saiba mais",
-						},
-						{
-							cover: "/images/tratamentos/thumbs-tratamento-de-vasinhos-1.webp",
-							title: "Vasinhos (PEIM)",
-							subtitle: "",
-							description:
-								"O Procedimento Estético Invasivo Mínimo (PEIM), utiliza agulhas finas para injetar substâncias capazes de desobstruir e eliminar os vasinhos.",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
