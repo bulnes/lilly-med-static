@@ -191,6 +191,15 @@ module.exports = {
 							linkText: "Saiba mais",
 						},
 						{
+							cover: "/images/tratamentos/thumbs-remocao-de-tatuagem-1.webp",
+							title: "Remoção de Tatuagem",
+							subtitle: "Tratamento a laser",
+							description:
+								"Remoção de Tatuagem com Laser Q-Plus Evo - Última geração de tratamento, sendo o mais recomendado e seguro para a realização do procedimento.",
+							link: "https://bit.ly/LillyWhatsApp",
+							linkText: "Saiba mais",
+						},
+						{
 							cover:
 								"/images/tratamentos/thumbs-radiancy-body-trate-flacidez-1.webp",
 							title: "Radiancy Body",
@@ -280,6 +289,15 @@ module.exports = {
 							subtitle: "",
 							description:
 								"Peeling com Laser Q-Plus Evo e carvão ativado, clareamento da pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento, pele mais firme, melhora do contorno facial",
+							link: "https://bit.ly/LillyWhatsApp",
+							linkText: "Saiba mais",
+						},
+						{
+							cover: "/images/tratamentos/thumbs-remocao-de-tatuagem-1.webp",
+							title: "Remoção de Tatuagem",
+							subtitle: "",
+							description:
+								"Remoção de Tatuagem com Laser Q-Plus Evo - Última geração de tratamento, sendo o mais recomendado e seguro para a realização do procedimento",
 							link: "https://bit.ly/LillyWhatsApp",
 							linkText: "Saiba mais",
 						},
