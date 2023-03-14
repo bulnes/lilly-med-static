@@ -1,6 +1,6 @@
 .card-club {
-	width: 311px;
-	height: 472px;
+	width: 311px !important;
+	height: 472px !important;
 	background-color: white;
 	border-radius: 13.4341px;
 
@@ -9,8 +9,8 @@
 
 	@media screen and (min-width: 768px) {
 		border-radius: 20px;
-		width: 378px;
-		height: 608.03px;
+		width: 378px !important;
+		height: 608px !important;
 	}
 
 	&__title {

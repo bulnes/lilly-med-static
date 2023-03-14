@@ -38,10 +38,6 @@ module.exports = {
 					href: "#mais-vendidos",
 				},
 				{
-					title: "Lilly App",
-					href: "#lilly-app",
-				},
-				{
 					title: "Tratamentos",
 					href: "#tratamentos",
 				},

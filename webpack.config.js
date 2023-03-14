@@ -28,6 +28,10 @@ module.exports = {
 					from: path.join(__dirname, "src", "images"),
 					to: path.join(__dirname, "dist", "images"),
 				},
+				{
+					from: path.join(__dirname, "src", "extras", "clubs-lillymed"),
+					to: path.join(__dirname, "dist", "clubs-lillymed"),
+				},
 			],
 		}),
 		new HtmlWebpackPlugin({
