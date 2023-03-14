@@ -1,4 +1,4 @@
-const baseUrl = "https://lilly-med-static.vercel.app/";
+const baseUrl = "https://lillymed.com.br/";
 
 module.exports = {
 	data: {
