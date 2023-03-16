@@ -1,11 +1,14 @@
+$card-desktop-width: 358px;
+$card-desktop-height: 205px;
+
 .card-help {
 	border-radius: 13.4341px;
 	width: 311px;
 	height: 188.08px;
 
 	@media screen and (min-width: 768px) {
-		width: 378px;
-		height: 225px;
+		width: $card-desktop-width;
+		height: $card-desktop-height;
 	}
 
 	&__link {
@@ -19,8 +22,8 @@
 
 		@media screen and (min-width: 768px) {
 			border-radius: 20px;
-			width: 378px;
-			height: 225px;
+			width: $card-desktop-width;
+			height: $card-desktop-height;
 		}
 	}
 
