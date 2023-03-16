@@ -6,7 +6,7 @@ $card-desktop-height: 205px;
 	width: 311px;
 	height: 188.08px;
 
-	@media screen and (min-width: 768px) {
+	@media screen and (min-width: $container-desktop-max-width) {
 		width: $card-desktop-width;
 		height: $card-desktop-height;
 	}
@@ -20,7 +20,7 @@ $card-desktop-height: 205px;
 		border-radius: 13.4341px;
 		overflow: hidden;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			border-radius: 20px;
 			width: $card-desktop-width;
 			height: $card-desktop-height;

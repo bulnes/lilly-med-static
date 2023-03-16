@@ -14,7 +14,7 @@
 		height: 80px;
 		position: relative;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			height: 100px;
 
 			display: flex;
@@ -37,7 +37,7 @@
 		align-items: center;
 		justify-content: center;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			position: static;
 			top: auto;
 			left: auto;
@@ -64,7 +64,7 @@
 		top: 0;
 		right: 0;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			display: none;
 		}
 	}
@@ -85,7 +85,7 @@
 			animation: slide-out-top 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 		}
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			display: none !important;
 		}
 
@@ -158,7 +158,7 @@
 	&__nav {
 		display: none;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
@@ -214,7 +214,7 @@
 
 		text-decoration: none;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			display: flex;
 		}
 

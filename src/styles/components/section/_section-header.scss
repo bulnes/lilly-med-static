@@ -12,7 +12,7 @@
 		max-width: 327px;
 		text-align: center;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			font-size: 48px;
 			line-height: 52px;
 			max-width: 823px;
@@ -30,7 +30,7 @@
 		max-width: 365px;
 		text-align: center;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			font-size: 24px;
 			line-height: 30px;
 			max-width: 807px;

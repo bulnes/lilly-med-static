@@ -12,7 +12,7 @@ $card-desktop-cover-height: 130px;
 	display: flex;
 	flex-direction: column;
 
-	@media screen and (min-width: 768px) {
+	@media screen and (min-width: $container-desktop-max-width) {
 		border-radius: 20px;
 		width: $card-desktop-width;
 		height: $card-desktop-height;
@@ -24,7 +24,7 @@ $card-desktop-cover-height: 130px;
 		height: 121.2px;
 		aspect-ratio: 311.75 / 121.2;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			border-radius: 20px 20px 0px 0px;
 			width: $card-desktop-width;
 			height: $card-desktop-cover-height;
@@ -37,7 +37,7 @@ $card-desktop-cover-height: 130px;
 			object-fit: cover;
 			border-radius: 13.4667px 13.4667px 0px 0px;
 
-			@media screen and (min-width: 768px) {
+			@media screen and (min-width: $container-desktop-max-width) {
 				border-radius: 20px 20px 0px 0px;
 			}
 		}
@@ -49,7 +49,7 @@ $card-desktop-cover-height: 130px;
 		justify-content: space-between;
 		padding: 20px 24px 29px;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			padding: 31px 38px 40px;
 		}
 	}
@@ -61,7 +61,7 @@ $card-desktop-cover-height: 130px;
 		line-height: 27px;
 		color: #5a5a5a;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			font-size: 30px;
 			line-height: 31px;
 		}
@@ -75,7 +75,7 @@ $card-desktop-cover-height: 130px;
 		color: #5a5a5a;
 		margin-bottom: 1rem;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			font-size: 20px;
 			line-height: 32px;
 		}
@@ -88,7 +88,7 @@ $card-desktop-cover-height: 130px;
 		line-height: 18px;
 		color: #656565;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			font-size: 18px;
 			line-height: 22px;
 		}
@@ -116,7 +116,7 @@ $card-desktop-cover-height: 130px;
 		line-height: 15px;
 		text-decoration: none;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			width: calc(100% - 70px);
 			margin: auto auto 40px;
 			font-size: 20px;

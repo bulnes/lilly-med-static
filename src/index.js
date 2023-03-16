@@ -8,3 +8,8 @@ window.addEventListener("load", () => {
 
 	document.body.classList.add("visible");
 });
+
+window.addEventListener("resize", () => {
+	// reload page on resize
+	window.location.reload();
+});

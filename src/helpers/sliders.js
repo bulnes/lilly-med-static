@@ -15,7 +15,7 @@ const defaultSplide = {
 	autoplay: false,
 	interval: 4000,
 	breakpoints: {
-		768: {
+		1140: {
 			type: "loop",
 			trimSpace: true,
 			focus: 0,
@@ -32,8 +32,8 @@ const defaultSplide = {
 const defaultAtLeat3Splide = {
 	...defaultSplide,
 	breakpoints: {
-		768: {
-			...defaultSplide.breakpoints[768],
+		1140: {
+			...defaultSplide.breakpoints[1140],
 			type: "slide",
 			arrows: false,
 			pagination: false,
@@ -56,14 +56,14 @@ const bannerSplide = {
 	arrows: true,
 	pagination: true,
 	breakpoints: {
-		1200: {
+		1140: {
 			trimSpace: false,
 			focus: "center",
 			perPage: 1,
 			autoHeight: false,
 			autoWidth: false,
-			height: "440px",
-			width: "1200px",
+			height: "418px",
+			width: "1140px",
 			gap: 33,
 			autoplay: true,
 			interval: 4000,
@@ -89,6 +89,7 @@ function getConfig(children, isBanner) {
 
 function initDefaultSliders() {
 	const elms = document.getElementsByClassName("splide");
+
 	for (let i = 0; i < elms.length; i++) {
 		const isBanner = elms[i].classList.contains("splide--banner");
 		const children = [...elms[i].querySelectorAll(".splide__slide")];

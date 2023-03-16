@@ -1,7 +1,7 @@
 .sections-cards {
 	padding: 0 0 21px;
 
-	@media screen and (min-width: 768px) {
+	@media screen and (min-width: $container-desktop-max-width) {
 		padding: 0 0 30px;
 	}
 }

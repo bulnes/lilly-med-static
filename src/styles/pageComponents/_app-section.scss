@@ -3,7 +3,7 @@
 	height: auto;
 	margin-bottom: 35px;
 
-	@media screen and (min-width: 768px) {
+	@media screen and (min-width: $container-desktop-max-width) {
 		margin-bottom: 54px;
 	}
 
@@ -22,7 +22,7 @@
 			display: block;
 			aspect-ratio: 414 / 596.93;
 
-			@media screen and (min-width: 768px) {
+			@media screen and (min-width: $container-desktop-max-width) {
 				display: none;
 			}
 		}
@@ -31,7 +31,7 @@
 			display: none;
 			aspect-ratio: 1920 / 730.67;
 
-			@media screen and (min-width: 768px) {
+			@media screen and (min-width: $container-desktop-max-width) {
 				display: block;
 			}
 		}

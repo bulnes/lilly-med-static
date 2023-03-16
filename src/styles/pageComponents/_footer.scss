@@ -19,7 +19,7 @@
 		align-items: center;
 		gap: 30px;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			flex-wrap: nowrap;
 			justify-content: space-between;
 			flex-direction: row;
@@ -32,7 +32,7 @@
 	&__col-map {
 		display: none;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			display: block;
 		}
 	}
@@ -40,7 +40,7 @@
 	&__row-app {
 		display: none;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			display: block;
 			margin-bottom: 30px;
 		}
@@ -65,7 +65,7 @@
 		width: 140px;
 		aspect-ratio: 192.75 / 64;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			width: 192.75px;
 		}
 	}
@@ -79,7 +79,7 @@
 		margin-bottom: 20px;
 		text-align: center;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			text-align: left;
 		}
 	}
@@ -92,7 +92,7 @@
 		align-items: center;
 		gap: 10px;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			align-items: flex-start;
 		}
 	}
@@ -111,7 +111,7 @@
 		align-items: center;
 		gap: 20px;
 
-		@media screen and (min-width: 768px) {
+		@media screen and (min-width: $container-desktop-max-width) {
 			justify-content: flex-start;
 		}
 	}
