@@ -6,7 +6,8 @@ window.addEventListener("load", () => {
 	configMenuMobileLinks();
 	initDefaultSliders();
 
-	document.body.classList.add("visible");
+	document.body.classList.remove("invisible");
+	document.body.focus();
 });
 
 window.addEventListener("resize", () => {
