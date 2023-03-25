@@ -23,7 +23,7 @@ module.exports = {
 			menu: [
 				{
 					title: "Home",
-					href: "/#main-banner",
+					href: "#main-banner",
 				},
 				{
 					title: "Clubes Lilly",

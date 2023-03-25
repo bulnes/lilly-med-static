@@ -1,15 +1,8 @@
 html {
 	scroll-behavior: smooth;
-	scroll-padding-top: 110px;
-
-	@media screen and (min-width: $container-desktop-max-width) {
-		scroll-padding-top: 130px;
-	}
 }
 
-html,
 body {
-	min-height: 100%;
 	background-color: #efefef;
 }
 
