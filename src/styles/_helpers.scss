@@ -8,3 +8,23 @@
 	clip: rect(0, 0, 0, 0);
 	border: 0;
 }
+
+.carrossel {
+	overflow-y: hidden;
+	overflow-x: auto;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 20px;
+
+	padding: 0 32px;
+	margin-bottom: 50px;
+
+	@media screen and (min-width: $container-desktop-max-width) {
+		margin: 0 auto 70px;
+		padding: 0;
+		gap: 49px;
+	}
+}

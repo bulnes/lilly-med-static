@@ -1,4 +1,4 @@
-<main class="section-body section-body--default">
+{{!-- <main class="section-body section-body--default">
   <div class="splide">
     <div class="splide__track">
       <ul class="splide__list">
@@ -9,5 +9,13 @@
         {{/each}}
       </ul>
     </div>
+  </div>
+</main> --}}
+
+<main class="section-body section-body--default">
+  <div class="carrossel">
+    {{#each data.treatments}}
+    {{> ../card/card-default data=this }}
+    {{/each}}
   </div>
 </main>

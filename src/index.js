@@ -1,10 +1,10 @@
-import initDefaultSliders from "./helpers/sliders";
+// import initDefaultSliders from "./helpers/sliders";
 import { configMenuMobileLinks } from "./helpers/toggle-menu-mobile";
 import "./styles/main.scss";
 
 window.addEventListener("load", () => {
 	configMenuMobileLinks();
-	initDefaultSliders();
+	// initDefaultSliders();
 
 	document.body.classList.remove("invisible");
 	document.body.focus();

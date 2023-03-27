@@ -1,4 +1,4 @@
-<section class="banners-section" id="main-banner">
+{{!-- <section class="banners-section" id="main-banner">
   <div class="splide splide--banner">
     <div class="splide__track">
       <ul class="splide__list">
@@ -12,5 +12,16 @@
         {{/each}}
       </ul>
     </div>
+  </div>
+</section> --}}
+
+<section class="banners-section" id="main-banner">
+  <div class="carrossel">
+    {{#each data}}
+    <a href="{{ link }}" title="{{ title }}" target="_blank" rel="noopener noreferrer" class="banner">
+      <img src="{{ coverMobile }}" alt="" width="350" height="361" loading="lazy" class="banner__mobile" />
+      <img src="{{ coverDesktop }}" alt="" width="1140" height="418" loading="lazy" class="banner__desktop" />
+    </a>
+    {{/each}}
   </div>
 </section>
