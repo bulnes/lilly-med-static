@@ -21,8 +21,3 @@ window.addEventListener("load", () => {
 		});
 	});
 });
-
-window.addEventListener("resize", () => {
-	// reload page on resize
-	window.location.reload();
-});
